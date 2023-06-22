@@ -20,7 +20,7 @@ const WeatherComponent = () => {
     setWeatherData(null);
 
     axios
-      .get(`http://api.weatherapi.com/v1/forecast.json?key=ee8ad90872a7451bac994150232206&q=${location}&days=3`)
+      .get(`https://api.weatherapi.com/v1/forecast.json?key=ee8ad90872a7451bac994150232206&q=${location}&days=3`)
       .then((response) => {
         const { forecast } = response.data;
         const hourlyDataForDay = forecast.forecastday[0].hour;
