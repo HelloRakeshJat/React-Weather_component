@@ -3,9 +3,8 @@ import './App.css';
 import WeatherComponent from './WeatherComponent/WeatherComponent';
 
 function App() {
-
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <div className="App">
       <WeatherComponent />
     </div>
   );

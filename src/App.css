@@ -1,20 +1,25 @@
-.App {
-  text-align: center;
-}
+ .App {
+   text-align: center;
+ }
 
+ .weather-data {
+   padding: 30px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+   .search-data {
+     width: 300px;
+   }
 
-.image {
-  max-width: 80%;
-  max-height: 500px;
-}
+   .hourly-list {
+     display: flex;
+     list-style-type: none;
+     overflow-x: auto;
+     padding: 0;
+     margin: 0;
+   }
+
+   .hourly-item {
+     flex: 0 0 auto;
+     margin-right: 16px;
+     text-align: center;
+   }
+ }
